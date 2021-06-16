@@ -1,0 +1,150 @@
+[DEBUG] [2021-06-16 12:57:33,552] Before invocation of beforeClass
+[DEBUG] [2021-06-16 12:57:33,552] Before invocation of beforeClass
+[DEBUG] [2021-06-16 12:57:40,739] After invocation of beforeClass
+[DEBUG] [2021-06-16 12:57:40,754] Before invocation of TC_01_Register_With_Empty_Data
+[INFO ] [2021-06-16 12:57:40,755] **************** Test Case 01: Register_With_Empty_Data ****************
+[INFO ] [2021-06-16 12:57:40,755] Register_With_Empty_Data - Step 01: Open Home page
+[INFO ] [2021-06-16 12:57:40,759] Register_With_Empty_Data - Step 02: Click to Register Link
+[DEBUG] [2021-06-16 12:57:43,100] After invocation of beforeClass
+[DEBUG] [2021-06-16 12:57:43,110] Before invocation of TC_01_Register_With_Empty_Data
+[INFO ] [2021-06-16 12:57:43,111] **************** Test Case 01: Register_With_Empty_Data ****************
+[INFO ] [2021-06-16 12:57:43,111] Register_With_Empty_Data - Step 01: Open Home page
+[INFO ] [2021-06-16 12:57:43,111] Register_With_Empty_Data - Step 02: Click to Register Link
+[INFO ] [2021-06-16 12:57:43,597] Register_With_Empty_Data - Step 03: Click to Register Button
+[INFO ] [2021-06-16 12:57:43,745] Register_With_Empty_Data - Step 04: Verify error message for empty First Name is displayed
+[INFO ] [2021-06-16 12:57:43,824]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-06-16 12:57:43,826] Register_With_Empty_Data - Step 05: Verify error message for empty Last Name is displayed
+[INFO ] [2021-06-16 12:57:43,888]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-06-16 12:57:43,889] Register_With_Empty_Data - Step 06: Verify error message for empty mail is displayed
+[INFO ] [2021-06-16 12:57:43,979]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-06-16 12:57:43,979] Register_With_Empty_Data - Step 07: Verify error message for empty Password is displayed
+[INFO ] [2021-06-16 12:57:44,043]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-06-16 12:57:44,043] Register_With_Empty_Data - Step 08: Verify error message for empty Confirm Password is displayed
+[INFO ] [2021-06-16 12:57:44,105]  -------------------------- PASSED -------------------------- 
+[DEBUG] [2021-06-16 12:57:44,105] After invocation of TC_01_Register_With_Empty_Data
+[DEBUG] [2021-06-16 12:57:44,108] Before invocation of TC_02_Register_With_Invalid_Email
+[INFO ] [2021-06-16 12:57:44,109] **************** Test Case 02: Register_With_Invalid_Email ****************
+[INFO ] [2021-06-16 12:57:44,109] Register_With_Invalid_Email - Step 01: Enter to First Name Textbox with value: Rufus
+[INFO ] [2021-06-16 12:57:44,276] Register_With_Invalid_Email - Step 02: Enter to Last Name Textbox with value: Kohler
+[INFO ] [2021-06-16 12:57:44,463] Register_With_Invalid_Email - Step 03: Enter to Email Textbox with value: testingEmail
+[INFO ] [2021-06-16 12:57:44,641] Register_With_Invalid_Email - Step 04: Enter to Password Textbox with value: 123456
+[INFO ] [2021-06-16 12:57:44,823] Register_With_Invalid_Email - Step 05: Enter to Confirm Password Textbox with value: 123456
+[INFO ] [2021-06-16 12:57:44,970] Register_With_Invalid_Email - Step 06: Click to Register button
+[INFO ] [2021-06-16 12:57:45,077] Register_With_Invalid_Email - Step 07: Verify the Invalid Email Error Message is displayed
+[INFO ] [2021-06-16 12:57:45,138] Register_With_Empty_Data - Step 03: Click to Register Button
+[INFO ] [2021-06-16 12:57:45,146]  -------------------------- PASSED -------------------------- 
+[DEBUG] [2021-06-16 12:57:45,146] After invocation of TC_02_Register_With_Invalid_Email
+[DEBUG] [2021-06-16 12:57:45,147] Before invocation of TC_03_Register_With_Password_Less_Than_6_Characters
+[INFO ] [2021-06-16 12:57:45,148] **************** Test Case 03: Register_With_Password_Less_Than_6_Characters ****************
+[INFO ] [2021-06-16 12:57:45,148] Register_With_Password_Less_Than_6_Characters - Step 01: Enter to Password Textbox with invalid password: 123
+[INFO ] [2021-06-16 12:57:45,298] Register_With_Password_Less_Than_6_Characters - Step 02: Enter to Confirm Password Textbox with invalid password: 123
+[INFO ] [2021-06-16 12:57:45,436] Register_With_Password_Less_Than_6_Characters - Step 03: Click to Register button
+[INFO ] [2021-06-16 12:57:45,463] Register_With_Empty_Data - Step 04: Verify error message for empty First Name is displayed
+[INFO ] [2021-06-16 12:57:45,538]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-06-16 12:57:45,538] Register_With_Empty_Data - Step 05: Verify error message for empty Last Name is displayed
+[INFO ] [2021-06-16 12:57:45,544] Register_With_Password_Less_Than_6_Characters - Step 04: Verify the Short Password Error Message is displayed
+[INFO ] [2021-06-16 12:57:45,615]  -------------------------- PASSED -------------------------- 
+[DEBUG] [2021-06-16 12:57:45,615] After invocation of TC_03_Register_With_Password_Less_Than_6_Characters
+[DEBUG] [2021-06-16 12:57:45,618] Before invocation of TC_04_Register_With_Unmatched_Confirm_Password
+[INFO ] [2021-06-16 12:57:45,618] **************** Test Case 04: Register_With_Unmatched_Confirm_Password ****************
+[INFO ] [2021-06-16 12:57:45,618] Register_With_Unmatched_Confirm_Password - Step 01: Enter to Password Textbox with valid password: 123456
+[INFO ] [2021-06-16 12:57:45,629]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-06-16 12:57:45,629] Register_With_Empty_Data - Step 06: Verify error message for empty mail is displayed
+[INFO ] [2021-06-16 12:57:45,706]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-06-16 12:57:45,707] Register_With_Empty_Data - Step 07: Verify error message for empty Password is displayed
+[INFO ] [2021-06-16 12:57:45,765] Register_With_Unmatched_Confirm_Password - Step 01: Enter to Confirm Password Textbox with unmatched password: 123
+[INFO ] [2021-06-16 12:57:45,799]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-06-16 12:57:45,799] Register_With_Empty_Data - Step 08: Verify error message for empty Confirm Password is displayed
+[INFO ] [2021-06-16 12:57:45,896]  -------------------------- PASSED -------------------------- 
+[DEBUG] [2021-06-16 12:57:45,896] After invocation of TC_01_Register_With_Empty_Data
+[DEBUG] [2021-06-16 12:57:45,898] Before invocation of TC_02_Register_With_Invalid_Email
+[INFO ] [2021-06-16 12:57:45,899] **************** Test Case 02: Register_With_Invalid_Email ****************
+[INFO ] [2021-06-16 12:57:45,899] Register_With_Invalid_Email - Step 01: Enter to First Name Textbox with value: Johnson
+[INFO ] [2021-06-16 12:57:45,900] Register_With_Unmatched_Confirm_Password - Step 03: Click to Register button
+[INFO ] [2021-06-16 12:57:46,006] Register_With_Unmatched_Confirm_Password - Step 04: Verify the Unmatched Password Error Message is displayed
+[INFO ] [2021-06-16 12:57:46,031] Register_With_Invalid_Email - Step 02: Enter to Last Name Textbox with value: Schimmel
+[INFO ] [2021-06-16 12:57:46,085]  -------------------------- PASSED -------------------------- 
+[DEBUG] [2021-06-16 12:57:46,085] After invocation of TC_04_Register_With_Unmatched_Confirm_Password
+[DEBUG] [2021-06-16 12:57:46,086] Before invocation of TC_05_Register_With_Valid_Info
+[INFO ] [2021-06-16 12:57:46,087] **************** Test Case 05: Register_With_Valid_Info ****************
+[INFO ] [2021-06-16 12:57:46,087] Register_With_Valid_Info - Step 01: Select Radio male gender
+[INFO ] [2021-06-16 12:57:46,177] Register_With_Invalid_Email - Step 03: Enter to Email Textbox with value: testingEmail
+[INFO ] [2021-06-16 12:57:46,228] Register_With_Valid_Info - Step 02: Enter to First Name Textbox with value: Rufus
+[INFO ] [2021-06-16 12:57:46,355] Register_With_Invalid_Email - Step 04: Enter to Password Textbox with value: 123456
+[INFO ] [2021-06-16 12:57:46,413] Register_With_Valid_Info - Step 03: Enter to Last Name Textbox with value: Kohler
+[INFO ] [2021-06-16 12:57:46,477] Register_With_Invalid_Email - Step 05: Enter to Confirm Password Textbox with value: 123456
+[INFO ] [2021-06-16 12:57:46,559] Register_With_Valid_Info - Step 04: Select Birth Day with value: 9
+[INFO ] [2021-06-16 12:57:46,607] Register_With_Invalid_Email - Step 06: Click to Register button
+[INFO ] [2021-06-16 12:57:46,713] Register_With_Valid_Info - Step 05: Select Birth Month with value: September
+[INFO ] [2021-06-16 12:57:46,849] Register_With_Valid_Info - Step 06: Select Birth Year with value: 1990
+[INFO ] [2021-06-16 12:57:46,905] Register_With_Invalid_Email - Step 07: Verify the Invalid Email Error Message is displayed
+[INFO ] [2021-06-16 12:57:46,994] Register_With_Valid_Info - Step 07: Enter to Company Textbox with email: McGlynn-Abshire
+[INFO ] [2021-06-16 12:57:46,995]  -------------------------- PASSED -------------------------- 
+[DEBUG] [2021-06-16 12:57:46,995] After invocation of TC_02_Register_With_Invalid_Email
+[DEBUG] [2021-06-16 12:57:46,997] Before invocation of TC_03_Register_With_Password_Less_Than_6_Characters
+[INFO ] [2021-06-16 12:57:46,997] **************** Test Case 03: Register_With_Password_Less_Than_6_Characters ****************
+[INFO ] [2021-06-16 12:57:46,997] Register_With_Password_Less_Than_6_Characters - Step 01: Enter to Password Textbox with invalid password: 123
+[INFO ] [2021-06-16 12:57:47,137] Register_With_Password_Less_Than_6_Characters - Step 02: Enter to Confirm Password Textbox with invalid password: 123
+[INFO ] [2021-06-16 12:57:47,166] Register_With_Valid_Info - Step 08: Enter to Email Textbox with email: kasi.cremin@hotmail.com
+[INFO ] [2021-06-16 12:57:47,305] Register_With_Password_Less_Than_6_Characters - Step 03: Click to Register button
+[INFO ] [2021-06-16 12:57:47,399] Register_With_Valid_Info - Step 09: Enter to Password Textbox with valid password: 123456
+[INFO ] [2021-06-16 12:57:47,545] Register_With_Valid_Info - Step 10: Enter to Confirm Password Textbox with valid password: 123456
+[INFO ] [2021-06-16 12:57:47,627] Register_With_Password_Less_Than_6_Characters - Step 04: Verify the Short Password Error Message is displayed
+[INFO ] [2021-06-16 12:57:47,686] Register_With_Valid_Info - Step 11: Click to Register button
+[INFO ] [2021-06-16 12:57:47,716]  -------------------------- PASSED -------------------------- 
+[DEBUG] [2021-06-16 12:57:47,717] After invocation of TC_03_Register_With_Password_Less_Than_6_Characters
+[DEBUG] [2021-06-16 12:57:47,719] Before invocation of TC_04_Register_With_Unmatched_Confirm_Password
+[INFO ] [2021-06-16 12:57:47,719] **************** Test Case 04: Register_With_Unmatched_Confirm_Password ****************
+[INFO ] [2021-06-16 12:57:47,719] Register_With_Unmatched_Confirm_Password - Step 01: Enter to Password Textbox with valid password: 123456
+[INFO ] [2021-06-16 12:57:47,857] Register_With_Unmatched_Confirm_Password - Step 01: Enter to Confirm Password Textbox with unmatched password: 123
+[INFO ] [2021-06-16 12:57:47,961] Register_With_Unmatched_Confirm_Password - Step 03: Click to Register button
+[INFO ] [2021-06-16 12:57:48,265] Register_With_Unmatched_Confirm_Password - Step 04: Verify the Unmatched Password Error Message is displayed
+[INFO ] [2021-06-16 12:57:48,361]  -------------------------- PASSED -------------------------- 
+[DEBUG] [2021-06-16 12:57:48,361] After invocation of TC_04_Register_With_Unmatched_Confirm_Password
+[DEBUG] [2021-06-16 12:57:48,363] Before invocation of TC_05_Register_With_Valid_Info
+[INFO ] [2021-06-16 12:57:48,363] **************** Test Case 05: Register_With_Valid_Info ****************
+[INFO ] [2021-06-16 12:57:48,363] Register_With_Valid_Info - Step 01: Select Radio male gender
+[INFO ] [2021-06-16 12:57:48,668] Register_With_Valid_Info - Step 02: Enter to First Name Textbox with value: Johnson
+[INFO ] [2021-06-16 12:57:48,803] Register_With_Valid_Info - Step 03: Enter to Last Name Textbox with value: Schimmel
+[INFO ] [2021-06-16 12:57:48,961] Register_With_Valid_Info - Step 04: Select Birth Day with value: 9
+[INFO ] [2021-06-16 12:57:49,064] Register_With_Valid_Info - Step 12: Verify that the Susscess message is displayed
+[INFO ] [2021-06-16 12:57:49,141]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-06-16 12:57:49,308] Register_With_Valid_Info - Step 05: Select Birth Month with value: September
+[INFO ] [2021-06-16 12:57:49,668] Register_With_Valid_Info - Step 06: Select Birth Year with value: 1990
+[INFO ] [2021-06-16 12:57:50,026] Register_With_Valid_Info - Step 07: Enter to Company Textbox with email: Effertz-Gleason
+[INFO ] [2021-06-16 12:57:50,166] Register_With_Valid_Info - Step 08: Enter to Email Textbox with email: kasi.cremin@hotmail.com
+[INFO ] [2021-06-16 12:57:50,314] Register_With_Valid_Info - Step 09: Enter to Password Textbox with valid password: 123456
+[INFO ] [2021-06-16 12:57:50,449] Register_With_Valid_Info - Step 10: Enter to Confirm Password Textbox with valid password: 123456
+[INFO ] [2021-06-16 12:57:50,570] Register_With_Valid_Info - Step 11: Click to Register button
+[INFO ] [2021-06-16 12:57:51,148] Register_With_Valid_Info - Step 12: Verify that the Susscess message is displayed
+[INFO ] [2021-06-16 12:57:52,152] Register_With_Valid_Info - Step 13: Logout to Home Page
+[DEBUG] [2021-06-16 12:57:54,337] After invocation of TC_05_Register_With_Valid_Info
+[DEBUG] [2021-06-16 12:57:54,339] Before invocation of TC_06_Register_With_Existed_Email
+[INFO ] [2021-06-16 12:57:54,339] **************** Test Case 06: Register_With_Existed_Email ****************
+[INFO ] [2021-06-16 12:57:54,339] Register_With_Existed_Email - Step 01: Click to Register Link
+[INFO ] [2021-06-16 12:57:56,279] Register_With_Existed_Email - Step 02: Enter to First Name Textbox with value: Rufus
+[INFO ] [2021-06-16 12:57:56,481] Register_With_Existed_Email - Step 03: Enter to Last Name Textbox with value: Kohler
+[INFO ] [2021-06-16 12:57:56,671] Register_With_Existed_Email - Step 04: Enter to Email Textbox with value: kasi.cremin@hotmail.com
+[INFO ] [2021-06-16 12:57:56,878] Register_With_Existed_Email - Step 05: Enter to Password Textbox with valid password: 123456
+[INFO ] [2021-06-16 12:57:57,051] Register_With_Existed_Email - Step 06: Enter to Confirm Password Textbox with valid password: 123456
+[INFO ] [2021-06-16 12:57:57,224] Register_With_Existed_Email - Step 07: Click to Register button
+[INFO ] [2021-06-16 12:57:58,896] Register_With_Existed_Email - Step 08: Verify that the Existed Email Error Message is displayed
+[INFO ] [2021-06-16 12:57:58,967]  -------------------------- PASSED -------------------------- 
+[DEBUG] [2021-06-16 12:57:58,967] After invocation of TC_06_Register_With_Existed_Email
+[DEBUG] [2021-06-16 12:57:58,968] Before invocation of afterClass
+[DEBUG] [2021-06-16 12:57:59,676] After invocation of afterClass
+[DEBUG] [2021-06-16 12:58:01,214] After invocation of TC_05_Register_With_Valid_Info
+[DEBUG] [2021-06-16 12:58:01,217] Before invocation of TC_06_Register_With_Existed_Email
+[INFO ] [2021-06-16 12:58:01,217] **************** Test Case 06: Register_With_Existed_Email ****************
+[INFO ] [2021-06-16 12:58:01,217] Register_With_Existed_Email - Step 01: Click to Register Link
+[INFO ] [2021-06-16 12:58:02,710] Register_With_Existed_Email - Step 02: Enter to First Name Textbox with value: Johnson
+[INFO ] [2021-06-16 12:58:02,833] Register_With_Existed_Email - Step 03: Enter to Last Name Textbox with value: Schimmel
+[INFO ] [2021-06-16 12:58:02,928] Register_With_Existed_Email - Step 04: Enter to Email Textbox with value: kasi.cremin@hotmail.com
+[INFO ] [2021-06-16 12:58:03,033] Register_With_Existed_Email - Step 05: Enter to Password Textbox with valid password: 123456
+[INFO ] [2021-06-16 12:58:03,146] Register_With_Existed_Email - Step 06: Enter to Confirm Password Textbox with valid password: 123456
+[INFO ] [2021-06-16 12:58:03,252] Register_With_Existed_Email - Step 07: Click to Register button
+[INFO ] [2021-06-16 12:58:04,829] Register_With_Existed_Email - Step 08: Verify that the Existed Email Error Message is displayed
+[INFO ] [2021-06-16 12:58:04,924]  -------------------------- PASSED -------------------------- 
+[DEBUG] [2021-06-16 12:58:04,924] After invocation of TC_06_Register_With_Existed_Email
+[DEBUG] [2021-06-16 12:58:04,925] Before invocation of afterClass
+[DEBUG] [2021-06-16 12:58:05,847] After invocation of afterClass
